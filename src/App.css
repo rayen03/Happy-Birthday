@@ -12,19 +12,21 @@
     --color-pink: #feecea;
     --color-white: #fff;
     --color-black: #333;
-    --color-text-pink: #FF7882;
+    --color-text: #52682d;
+    --color-text-pink: #52682dac; /*#FF7882;*/
     --color-heart: #FF7882;
     --color-bg-letter: #fff8e4;
     --color-border: #DACCBF;
+    --color-green: #52682d3f;
 }
-
+/*tile bg*/
 body {
     position: relative;
     font-size: 16px;
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: linear-gradient(var(--color-pink), var(--color-pink));
+    background-image: linear-gradient(var(--color-green), var(--color-green));
 }
 
 #wrapper {
@@ -63,6 +65,7 @@ body {
     position: relative;
     display: flex;
     padding-top: 3rem;
+    transform: translateY(-150px);
 }
 
 .content .left,
@@ -211,7 +214,7 @@ body {
 }
 
 .title .birthday {
-    color: var(--color-text-pink);
+    color: #81864A;;
 }
 
 .title .hat {
@@ -317,6 +320,7 @@ body {
     position: relative;
     transform: translateY(700px);
     animation: topBoxImage 8s 7s forwards ease-in;
+    scale: 0.8;
 }
 
 @keyframes topBoxImage {
@@ -327,18 +331,18 @@ body {
 
 .content .right .image {
     position: relative;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
+
     overflow: hidden;
     display: flex;
     align-items: center;
-    border: 6px solid var(--color-black);
+   /*border-radius: 50%;
+    border: 6px solid var(--color-black);*/
 }
 
 .content .right .image img {
-    width: 100%;
-    object-fit: cover;
+    width: 60%;
+    object-fit:scale-down;
+    scale: 0.8;
 
 }
 
@@ -373,17 +377,7 @@ body {
 
 }
 
-.text__cricle {
-    width: 100px;
-    height: 100px;
-    background-color: var(--color-text-pink);
-    border-radius: 50%;
-    border: 5px solid var(--color-black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: rotateCricle 5s linear infinite;
-}
+
 
 @keyframes rotateCricle {
     to {
@@ -881,11 +875,11 @@ body {
         position: relative;
         width: 200px;
         height: 200px;
-        border-radius: 50%;
+        border-radius: 0;
         overflow: hidden;
         display: flex;
         align-items: center;
-        border: 6px solid var(--color-black);
+        border: none;
     }
 
     .name {

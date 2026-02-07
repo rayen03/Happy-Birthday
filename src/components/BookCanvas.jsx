@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
-import orihime from '../assets/orihime.jpg'
+
+import amalia1 from '../assets/amalia1.png'
 import { GiCrossMark } from 'react-icons/gi'
 
 const BookCanvas = ({ active, setActive }) => {
@@ -29,23 +30,20 @@ const BookCanvas = ({ active, setActive }) => {
                 <div className="card1">
                     <div className="cover-text-wrapper">
                         <h4 className="username">
-                            Dear Trisha<span className="underline"></span>
+                            Dear Amalia<span className="underline"></span>
                         </h4>
                         <h3 className="cover-title">
                             Happy Birthday!
                         </h3>
-                        <p className="cover-subtitle">
-                            A purr-fect message just for you... 💌
-                        </p>
+
                     </div>
 
                     {/* User Image remains the same */}
                     <div className="userImg">
-                        <img src={orihime} alt="Recipient's Photo" />
+                        <img src={amalia1} alt="Recipient's Photo" />
                     </div>
 
-                    {/* New Hello Kitty themed decoration */}
-                    <div className="hello-kitty-bow-pattern"></div>
+
 
                     {/* Previous decorations, possibly updated for theme */}
                     <div className="card1-decoration-sparkle"></div>
@@ -68,11 +66,11 @@ const BookCanvas = ({ active, setActive }) => {
 
                         {/* Swapping back to H2 to match the original CSS targeting */}
                         <div className="card2-message-text italic">
-                            <article style={{ marginBottom: '8px' }}>Happy Birthday, Trisha ❤️</article>
-                            <article style={{ marginBottom: '10px' }}>From the moment we met, something in my life shifted—like the universe quietly guiding me toward someone meant for me.You brought warmth into the parts of me I didn’t even know were cold, And you expanded my days with a dimension I can only call my own.</article>
-                            <article style={{ marginBottom: '10px' }}>On your birthday, I just want you to know this: I want you with me in every chapter, every storm, every sunshine, every tomorrow. No matter what comes, I’ll be on your side—always. I’ll choose you, protect you, stand with you, and love you in ways that remind you you’re never alone.</article>
-                            <article style={{ marginBottom: '10px' }}>You’re not just another year older today… <br />
-                                you’re the reason my life feels softer, brighter, and endlessly worth living. Happy Birthday.</article>
+                            <article style={{ marginBottom: '8px' }}>To my dearest Amalia,</article>
+                            <article style={{ marginBottom: '10px' }}>On a day like this, years ago, my beautiful Amalia entered this world and eventually found her way to me. I find myself wishing, with every fiber of my being, that I was standing right beside you...not just to celebrate this day, but to be the hand you hold through the changing seasons of life the quiet joys and the difficult storms.</article>
+                            <article style={{ marginBottom: '10px' }}>I am truly the luckiest man to have the privilege of calling you mine. I count the days until the thousand miles of sea between us finally vanish, surrendering to the moment I can at last hold you into bratele mele:)</article>
+                            <article style={{ marginBottom: '10px' }}>It is indeed magic you possess despite the distance, you have made my soul feel safe, seen, and profoundly cared for. While others might hesitate at the space between two hearts, you have given me a thousand reasons to fall deeper every day. The distance is a shadow bitter and cold, yes but it could never dim the brilliance of what we share. It is insignificant compared to my feelings for you. <br />
+                               Happy Birthday, my love. Here is to a lifetime of birthdays, to the dreams we will turn into reality and to the beautiful journey of growing old together...</article>
                         </div>
 
                         <div className="card2-decoration"></div> {/* Decoration */}
@@ -91,7 +89,7 @@ const BookCanvas = ({ active, setActive }) => {
                         <div className="confetti-dots"></div>
 
                         <p className="signature">
-                            Your Best Friend, Rexon
+                            Yours Rayen,
                         </p>
                     </div>
                 </div>
